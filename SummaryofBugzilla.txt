@@ -1,0 +1,27 @@
+Summary of R bugzilla
+
+
+
+R Bugzilla documentation - 
+https://www.r-project.org/bugs.html
+
+Bugzilla documentation - 
+https://bugzilla.readthedocs.io/en/latest/index.html
+
+About -
+https://bugzilla.readthedocs.io/en/latest/about/index.html
+
+User guide - 
+https://bugzilla.readthedocs.io/en/latest/using/index.html
+
+Administrator guide - 
+https://bugzilla.readthedocs.io/en/latest/administering/index.html
+
+Integration and Customization - 
+https://bugzilla.readthedocs.io/en/latest/integrating/index.html
+
+Api Documentation - 
+https://bugzilla.readthedocs.io/en/latest/api/index.html
+
+Localization guide - 
+https://bugzilla.readthedocs.io/en/latest/localizing/index.html
