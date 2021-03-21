@@ -1,0 +1,20 @@
+Find the first 5 issues posted on Bugzilla. This can be done with the package 
+or through Bugzilla -- 
+
+For searching bug using bugRzilla I use get_bug(x) where x = 1,2,3,4,5,6,7...
+
+For searching using R bugzilla website in advance search select resolution 
+as fixed!
+
+Resolution: FIXED Creation date: (changed before) 2021-03-21 23:59:59
+This result was limited to 500 bugs. See all search results for this query.
+ID	Product	Comp	Assignee	Status	Resolution	Summary	Changed
+1	R	Misc	admin	CLOS	FIXE	Test bug report - summary	2018-01-16
+3	R	Language	jitterbug-import	CLOS	FIXE	[Prof Brian Ripley <ripley@stats.ox.ac.uk>] ... matching (still a bug)	1998-08-10
+4	R	Models	jitterbug-import	CLOS	FIXE	aov(y ~ 0) should work {g}lm(....) does	1998-08-10
+5	R	Language	jitterbug-import	CLOS	FIXE	row.names<- is incompatible with S	1998-08-18
+7	R	System-s	jitterbug-import	CLOS	FIXE	plot() hangs on DU 4.0	1998-08-17
+
+While searching https://bugs.r-project.org/bugzilla/show_bug.cgi?id=2 for 2 
+and 6 message appear - You must enter a valid bug number!
+

@@ -1,0 +1,65 @@
+get_bug(1) works -
+
+ component      assigned_to_detail id groups                   summary
+1      Misc 1, admin, Simon Urbanek  1     NA Test bug report - summary
+  priority qa_contact       creation_time          creator_detail flags
+1       P5            2010-02-15 18:29:54 Simon Urbanek, 1, admin    NA
+  assigned_to    last_change_time deadline resolution whiteboard is_open
+1       admin 2018-01-16 16:21:14       NA      FIXED              FALSE
+             cc version product classification severity is_confirmed
+1 simon.urbanek R 2.y.z       R   Unclassified   normal         TRUE
+  target_milestone status is_cc_accessible alias         op_sys
+1              --- CLOSED             TRUE    NA Mac OS X v10.4
+  is_creator_accessible                       cc_detail platform dupe_of
+1                  TRUE 5, simon.urbanek, Simon Urbanek  PowerPC      NA
+              url keywords creator see_also          depends_on blocks
+1 http://url.com/       NA   admin       NA 15763, 15764, 15862     NA
+
+
+
+get_comment(1) works -
+
+ is_private count                time       creator    id tags bug_id
+1      FALSE     0 2010-02-15 18:29:54         admin     1   NA      1
+2      FALSE     1 2010-02-15 18:33:25         admin     2   NA      1
+3      FALSE     2 2010-02-16 17:42:59         admin     3   NA      1
+4      FALSE     3 2010-03-09 18:14:23 simon.urbanek 83214   NA      1
+5      FALSE     4 2010-03-10 16:54:39         admin 83218   NA      1
+                                                                    text
+1                          Bug report description.\n\nAnother paragraph.
+2                                                   Another response ...
+3 Created attachment 1\ntest attachment ...\n\nAttaching a test file ...
+4                      Additional comment ... test, as you may guess ...
+5                                         Msrking the test bug as fixed.
+        creation_time is_markdown attachment_id
+1 2010-02-15 18:29:54       FALSE            NA
+2 2010-02-15 18:33:25       FALSE            NA
+3 2010-02-16 17:42:59       FALSE             1
+4 2010-03-09 18:14:23       FALSE            NA
+5 2010-03-10 16:54:39       FALSE            NA
+
+
+
+get_history works -
+
+                          who                when
+1          admin@urbanek.info 2010-02-16 17:43:29
+2 simon.urbanek@r-project.org 2010-03-09 18:14:23
+3          admin@urbanek.info 2010-03-10 16:54:39
+4  shanghaihuinanzhen@163.com 2014-04-19 11:23:06
+5  shanghaihuinanzhen@163.com 2014-04-19 11:25:51
+6      kaushjaiswal@gmail.com 2014-07-08 07:00:35
+7  maechler@stat.math.ethz.ch 2015-12-14 13:44:54
+8  maechler@stat.math.ethz.ch 2018-01-16 16:21:14
+                                                        changes issue
+1 text/plain, 1, attachments.mimetype, application/octet-stream     1
+2                             simon.urbanek@r-project.org, , cc     1
+3                    status, NEW, RESOLVED, resolution, , FIXED     1
+4                                           , depends_on, 15763     1
+5                                           depends_on, , 15764     1
+6                                           , depends_on, 15862     1
+7                                      RESOLVED, status, CLOSED     1
+8                                    R 2.y.z, version, R 2.11.0     1
+
+
+

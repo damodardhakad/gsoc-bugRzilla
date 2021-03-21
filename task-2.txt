@@ -1,0 +1,6 @@
+Create a function that opens on the browser a desired bug report on Bugzilla. 
+Create some tests for the function. --
+
+It will be similar to post_bug do when we say we didn't read the 
+documentation. https://github.com/llrs/bugRzilla/blob/master/R/post_help.R
+file is reposible for opening help page for bugs.

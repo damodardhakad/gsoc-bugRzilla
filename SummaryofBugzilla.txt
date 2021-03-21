@@ -2,6 +2,9 @@ Summary of R bugzilla
 
 
 
+REST API for bugzilla -
+https://wiki.mozilla.org/Bugzilla:REST_API
+ 
 R Bugzilla documentation - 
 https://www.r-project.org/bugs.html
 
