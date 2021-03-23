@@ -1,0 +1,5 @@
+Third task is propose a plan for the project --
+
+For this task I am currently reading other open source bugzilla guides.
+I will come up with a summary of what they ask in bug report, any special 
+format etc. 
