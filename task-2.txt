@@ -1,7 +1,8 @@
 Create a function that opens on the browser a desired bug report on Bugzilla. 
 Create some tests for the function. --
 
-Here is the bugRzilla diff for this task -
+Here is the bugRzilla diff (https://github.com/damodardhakad/bugRzilla/commit/a89b61ea4ccf00f2e7231741ae0c1d2ecd915939) 
+for this task -
 
 diff --git a/NAMESPACE b/NAMESPACE
 index b1fb1e8..349510f 100644
